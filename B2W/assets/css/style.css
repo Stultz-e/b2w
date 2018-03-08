@@ -33,6 +33,12 @@ h1,h2 {
      font-size:18px;
   }
 
+img {
+  max-width:100%;
+}
+
+
+
 /*   hero */
 #hero {
     background:url('../img/hero-bg.jpg') 50% 0 repeat fixed;
@@ -111,5 +117,14 @@ h1,h2 {
 
 }
 
+#optin {
+background:#3e4249;
+padding:20px 0;
+color:white;
+font-size:1.2em;
+}
 
+#optin p {
+  margin:7px 0 0 0; 
+}
 
