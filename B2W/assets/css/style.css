@@ -37,6 +37,108 @@ img {
   max-width:100%;
 }
 
+.modal-content {
+  background: url('../img/tile.jpg') top left repeat;
+}
+
+.badge.social{
+ display:flex;
+ background:#ccc;
+ font-size:24px;
+ height:40px;
+ width:40px;
+ text-align:center;
+ align-items:center;
+ justify-content: center;
+ margin:0 5px 20px 0;
+ padding:0;
+ -webkit-border-radius: 50px; 
+ -moz-border-radius: 50px;
+ border-radius: 50px;
+ color:white;
+}
+
+.badge.social.twitter:hover {
+  background:#55acee;
+}
+
+.badge.social.facebook:hover {
+  background:#3b5988;
+}
+
+.badge.social.gplus:hover {
+  background:#db4b39;
+}
+
+#instructor .num {
+  font-size:30px;
+  font-weight:bold;
+  color:white;
+  height:140px;
+  width:140px;
+  text-align:center;
+  background:#dd5638;
+  -webkit-border-radius:100%;
+  -moz-border-radius:100%;
+  border-radius:100%;
+  display:flex; 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#instructor .num span {
+  display:block;
+  font-size:20px;
+  font-weight:normal;
+}
+
+#kudos {
+  text-align:center;
+}
+
+.testimonial {
+  margin-bottom:60px;
+}
+
+.testimonial img {
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+}
+
+#signup {
+  text-align:center;
+  background: url('../img/hipster-stuff.jpg') center center repeat fixed;
+  background-size:cover;
+  color:white;
+  padding:140px 0;
+}
+
+#signup h2 {
+font-weight:normal;
+}
+
+#signup h2 strong {
+  border-bottom:2px solid #dd5638;
+}
+
+#signup .btn {
+  font-size:24px;
+}
+
+
+
+blockquote cite {
+  display:block;
+  color:#777;
+  margin:15px 0 0 0;
+}
+
+blockquote:before {
+  display:none;
+}
+
 
 /*   hero */
 #hero {
@@ -49,6 +151,11 @@ img {
     text-rendering: optimizelegibility;
 }
 
+button.btn:focus {
+  outline:none !important;
+
+}
+
 
 .btn {
   font-weight:bold;
@@ -58,6 +165,17 @@ img {
    background-color: #dd5638;
    border-collapse:#d95131;
 }
+
+.btn-success {
+  background: #79b044;
+  border:none;
+}
+
+.btn-success:hover {
+  background:#6a9b3d;
+  border-color:#6a9b3d;
+}
+
 
 #hero article {
   width:100%;
@@ -177,12 +295,23 @@ i.ci {
   text-align:center;
 }
 
+#instructor {
+  background: white url('../img/brad-elvis.png') 90% -10px no-repeat;
+}
+
+#instructor h2 {
+  margin:0 0 20px;
+}
+
+
 #featurette {
   background: url('../img/stuff-bg.jpg') 50% 100% repeat fixed;
   background-size:cover;
   text-align:center;
   color:white;
 }
+
+
 
 
 
