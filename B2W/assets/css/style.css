@@ -33,6 +33,19 @@ h1,h2 {
      font-size:18px;
   }
 
+  p.lead {
+    font-weight:normal; 
+  }
+
+  a:link a:visited {
+    color:#dd5638;
+  }
+
+  a:hover {
+    text-decoration:none;
+    color:#c9302c;
+  }
+
 img {
   max-width:100%;
 }
@@ -149,16 +162,12 @@ blockquote:before {
     color:white;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizelegibility;
-<<<<<<< HEAD
-}
-
-=======
 }
 
 button.btn:focus {
   outline:none !important;
 
-}
+}s
 
 
 .btn {
@@ -240,6 +249,10 @@ button.btn:focus {
 
 /* LAYOUT */
 
+.row + .row {
+  margin-top:20px;
+}
+
 section {
   padding:80px 0;
   }
@@ -272,7 +285,6 @@ font-size:1.2em;
 #optin p {
   margin:7px 0 0 0; 
 }
->>>>>>> dedd5d11e0bd3eb29e8e1cb2ee35e29a29e8c723
 
 #course-features {
   background:#3e4249;
@@ -280,6 +292,32 @@ font-size:1.2em;
   text-align: center;
 }
 
+footer {
+background:#3e4249;
+color:white;
+padding:20px 0 10px;
+font-size:12px;
+}
+
+footer p{
+  margin:0;
+}
+
+footer a:link, footer a:visited {
+  color:white;
+}
+
+footer a:hover {
+  color:#dd5638;
+}
+
+footer li.signup-link a {
+  color:#dd5638;
+}
+
+footer li.signup-link a:hover {
+  font-weight:bold;
+}
 
 /* CUSTOM ICON SPRITES */
 i.ci {
@@ -317,6 +355,14 @@ i.ci {
 }
 
 
+/* MEDIA QUERIES */
+
+@media screen and (max-width : 991px){
+#instructor .container {
+  background:rgba(255, 255, 255, 0.8)
+}
 
 
+
+}
 
