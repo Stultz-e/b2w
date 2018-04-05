@@ -276,7 +276,7 @@ section h3 {
 
 #primary {
   padding-top: 40px;
-  padding-bottom:40px;
+ /*  padding-bottom:40px; */
 }
 
 .feature-image {
@@ -518,6 +518,31 @@ i.ci {
   color: white;
 }
 
+/* FORMS */
+
+label {
+  display:block;
+  font-weight:bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+  color: #666;
+  border: 1px solid #ccc;
+  -webkit-border-radius:3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display:block;
+  /* -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box; */
+  width:100%;
+  padding:6px 12px;
+}
 
 
 /* MEDIA QUERIES */
