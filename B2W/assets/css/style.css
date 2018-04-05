@@ -399,6 +399,35 @@ footer li.signup-link a:hover {
   padding:0;
 }
 
+/* WIDGETS */
+.widget {
+  padding:20px;
+}
+
+.widget h4 {
+  margin:0 0 10px;
+  padding: 0 0 10px;
+  border-bottom:solid 1px #ddd;
+}
+
+.widget ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.widget ul li {
+  margin: 0 0 5px;
+}
+
+.widget ul li:hover {
+  position:relative;
+  left:1px;
+}
+
+
+
+
 /* comments */
 
 .post-comments-badge {
