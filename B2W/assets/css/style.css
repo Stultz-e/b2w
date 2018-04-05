@@ -356,7 +356,7 @@ footer li.signup-link a:hover {
 }
 
 /* BLOG */
-.post {
+.post, .widget {
   position:relative;
   border: solid 1px #ddd;
   background:white;
@@ -488,6 +488,8 @@ i.ci {
   text-align: center;
   color: white;
 }
+
+
 
 /* MEDIA QUERIES */
 
