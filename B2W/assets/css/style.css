@@ -503,6 +503,22 @@ footer li.signup-link a:hover {
   border-top:1px solid #eee;
 }
 
+/* RESOURCES  */
+
+.resource-row {
+  display:flex; 
+ justify-content: space-between;
+ flex-flow: row wrap;
+}
+
+.resource {
+  flex:1 1 31.33333333%;
+  margin:0 3% 40px 0;
+}
+
+.resource:nth-child(3n) {
+  margin-right:0;
+}
 
 /* CUSTOM ICON SPRITES */
 
@@ -602,6 +618,14 @@ textarea {
   #featurette iframe {
     height: 240px;
   }
+
+  .resource {
+  flex:1 1 48%;
+  margin-right:2%;
+  min-height:800px;
+  }
+
+
 }
 
 @media screen and (max-width: 568px) {
@@ -613,4 +637,13 @@ textarea {
   #instructor .num span {
     font-size: 16px;
   }
+
+  .resource {
+    flex:1 1 100%;
+ margin-right:0; 
+ margin-top:0;
+  }
+
+
 }
+
